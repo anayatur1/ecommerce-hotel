@@ -2,7 +2,7 @@ import axios from "axios"
 
 export const api = axios.create({
 	//baseURL: "http://localhost:9192"
-	baseURL: "https://ecommerce-hotel-server-production.up.railway.app"
+	baseURL: "http://ecommerce-hotel-server-production.up.railway.app"
 	
 })
 
